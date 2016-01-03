@@ -4,3 +4,10 @@ c:\suitsupply\injection\injection\bin\Debug\Ninject.dll
 c:\suitsupply\injection\injection\bin\Debug\Ninject.xml
 c:\suitsupply\injection\injection\obj\Debug\ddd.dll
 c:\suitsupply\injection\injection\obj\Debug\ddd.pdb
+C:\Suitsupply\ddd-apo\ddd\bin\Debug\ddd.dll
+C:\Suitsupply\ddd-apo\ddd\bin\Debug\ddd.pdb
+C:\Suitsupply\ddd-apo\ddd\bin\Debug\Ninject.dll
+C:\Suitsupply\ddd-apo\ddd\bin\Debug\Ninject.xml
+C:\Suitsupply\ddd-apo\ddd\obj\Debug\ddd.csprojResolveAssemblyReference.cache
+C:\Suitsupply\ddd-apo\ddd\obj\Debug\ddd.dll
+C:\Suitsupply\ddd-apo\ddd\obj\Debug\ddd.pdb
