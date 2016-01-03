@@ -1,0 +1,6 @@
+c:\suitsupply\injection\injection\bin\Debug\ddd.dll
+c:\suitsupply\injection\injection\bin\Debug\ddd.pdb
+c:\suitsupply\injection\injection\bin\Debug\Ninject.dll
+c:\suitsupply\injection\injection\bin\Debug\Ninject.xml
+c:\suitsupply\injection\injection\obj\Debug\ddd.dll
+c:\suitsupply\injection\injection\obj\Debug\ddd.pdb

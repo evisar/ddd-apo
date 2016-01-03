@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FE5515D4-F8DA-40B2-BCEF-EF55CA55627D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ddd</RootNamespace>
+    <AssemblyName>ddd</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="common\IAggregate.cs" />
+    <Compile Include="common\IEntity.cs" />
+    <Compile Include="common\IEvent.cs" />
+    <Compile Include="common\IOperation.cs" />
+    <Compile Include="common\IRule.cs" />
+    <Compile Include="common\IService.cs" />
+    <Compile Include="extensions\KernelExtension.cs" />
+    <Compile Include="infrastructure\Authentication.cs" />
+    <Compile Include="infrastructure\IAuthentication.cs" />
+    <Compile Include="infrastructure\IInfrastructure.cs" />
+    <Compile Include="infrastructure\ILogger.cs" />
+    <Compile Include="infrastructure\Logger.cs" />
+    <Compile Include="integration\IIntegrationService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sample\countries\Country.cs" />
+    <Compile Include="sample\countries\services\CountryRepository.cs" />
+    <Compile Include="sample\countries\services\CountryService.cs" />
+    <Compile Include="sample\countries\services\ICountryRepository.cs" />
+    <Compile Include="sample\countries\services\ICountryService.cs" />
+    <Compile Include="sample\customers\Customer.cs" />
+    <Compile Include="sample\customers\services\CustomerRepository.cs" />
+    <Compile Include="sample\customers\services\CustomerService.cs" />
+    <Compile Include="sample\customers\services\ICustomerRepository.cs" />
+    <Compile Include="sample\customers\services\ICustomerService.cs" />
+    <Compile Include="sample\sales\operations\ISaleOperations.cs" />
+    <Compile Include="sample\sales\operations\ISaleShippingOperation.cs" />
+    <Compile Include="sample\sales\operations\SaleOperations.cs" />
+    <Compile Include="rules\TaxRule.cs" />
+    <Compile Include="sample\sales\operations\SaleShippingOperation.cs" />
+    <Compile Include="sample\sales\Sale.cs" />
+    <Compile Include="sample\sales\SaleItem.cs" />
+    <Compile Include="services\EventService.cs" />
+    <Compile Include="services\IEventService.cs" />
+    <Compile Include="services\IRepositoryService.cs" />
+    <Compile Include="services\IShippingService.cs" />
+    <Compile Include="services\ITaxService.cs" />
+    <Compile Include="services\ShippingService.cs" />
+    <Compile Include="services\TaxService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

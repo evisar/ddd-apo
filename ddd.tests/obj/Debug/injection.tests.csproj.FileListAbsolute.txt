@@ -1,0 +1,15 @@
+c:\suitsupply\injection\injection.tests\obj\Debug\injection.tests.csprojResolveAssemblyReference.cache
+c:\suitsupply\injection\injection.tests\bin\Debug\injection.tests.dll
+c:\suitsupply\injection\injection.tests\bin\Debug\injection.tests.pdb
+c:\suitsupply\injection\injection.tests\bin\Debug\injection.dll
+c:\suitsupply\injection\injection.tests\bin\Debug\Moq.dll
+c:\suitsupply\injection\injection.tests\bin\Debug\Ninject.dll
+c:\suitsupply\injection\injection.tests\bin\Debug\injection.pdb
+c:\suitsupply\injection\injection.tests\bin\Debug\Moq.xml
+c:\suitsupply\injection\injection.tests\bin\Debug\Ninject.xml
+c:\suitsupply\injection\injection.tests\obj\Debug\injection.tests.dll
+c:\suitsupply\injection\injection.tests\obj\Debug\injection.tests.pdb
+c:\suitsupply\injection\injection.tests\bin\Debug\Ninject.Extensions.Conventions.dll
+c:\suitsupply\injection\injection.tests\bin\Debug\Ninject.Extensions.Conventions.xml
+c:\suitsupply\injection\injection.tests\bin\Debug\Castle.Core.dll
+c:\suitsupply\injection\injection.tests\bin\Debug\Castle.Core.xml

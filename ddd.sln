@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd", "ddd\ddd.csproj", "{FE5515D4-F8DA-40B2-BCEF-EF55CA55627D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd.tests", "ddd.tests\ddd.tests.csproj", "{DDBD5062-DEA3-4FE3-A91A-D7B57F26C693}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE5515D4-F8DA-40B2-BCEF-EF55CA55627D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5515D4-F8DA-40B2-BCEF-EF55CA55627D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5515D4-F8DA-40B2-BCEF-EF55CA55627D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5515D4-F8DA-40B2-BCEF-EF55CA55627D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDBD5062-DEA3-4FE3-A91A-D7B57F26C693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBD5062-DEA3-4FE3-A91A-D7B57F26C693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBD5062-DEA3-4FE3-A91A-D7B57F26C693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBD5062-DEA3-4FE3-A91A-D7B57F26C693}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

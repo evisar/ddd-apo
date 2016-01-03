@@ -1,0 +1,7 @@
+c:\suitsupply\injection\injection\bin\Debug\injection.dll
+c:\suitsupply\injection\injection\bin\Debug\injection.pdb
+c:\suitsupply\injection\injection\obj\Debug\injection.dll
+c:\suitsupply\injection\injection\obj\Debug\injection.pdb
+c:\suitsupply\injection\injection\bin\Debug\Ninject.dll
+c:\suitsupply\injection\injection\bin\Debug\Ninject.xml
+c:\suitsupply\injection\injection\obj\Debug\injection.csprojResolveAssemblyReference.cache
